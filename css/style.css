@@ -49,3 +49,21 @@
 .foto:nth-child(3){
   animation-delay: 8s;
 }
+/*PRESENTATION*/
+h1, h2, h3, p{
+  color: rgba(0, 0, 0, 0.555);
+}
+.apres{
+  padding-top: 52%;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+.apres p{
+  padding: 10px 0 90px 0;
+  font-size: 120%;
+  text-align: justify;
+}
+.coment{
+  box-shadow: -1 0 10px black;
+}
