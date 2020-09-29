@@ -108,3 +108,28 @@ h1, h2, h3, p{
 .aClinica img, .servicos img{
   border-radius: 17px;
 }
+/*ABOUT THE CLINIC*/
+.aClinica1{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 10% 0 70px 0;
+}
+.aClinica1 h1{
+  font-size: 300%;
+  padding-bottom: 40px;
+}
+.aClinica1 p{
+  text-align: justify;
+}
+.img{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.664);
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.linha{
+  margin: 0 0 0 4%;
+}
+.linee{
+  margin: 0 0 0 4%;
+}
