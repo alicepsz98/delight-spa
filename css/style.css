@@ -1,0 +1,463 @@
+ /*TOP*/
+ #topo{
+  width: 100%;
+  height: 70px;
+  background: #ca1776e0;
+  z-index: 11000;
+}
+.container0{
+ display: flex; 
+ margin: auto;
+ align-items: center;
+ justify-content: space-between;
+}
+/*LOGO*/
+.logo{
+  background: #f8d8dd;
+  z-index: 10000;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.575);
+  margin-left: 4%;
+}
+.logo img{
+  width: 70px;
+}
+/*BANNER*/
+#banner img{
+  margin-top:0;
+}
+#banner{
+  position: relative;
+}
+.foto{
+  position: absolute;
+  opacity: 0;
+  animation: animacao 12s infinite;
+}
+@keyframes animacao{
+  25%{
+       opacity: 1;
+       transform: scale(1);
+  }
+  50%{
+       opacity: 0;
+  }
+}
+.foto:nth-child(2){
+  animation-delay: 4s;
+}
+.foto:nth-child(3){
+  animation-delay: 8s;
+}
+/*PRESENTATION*/
+h1, h2, h3, p{
+  color: rgba(0, 0, 0, 0.555);
+}
+.apres{
+  padding-top: 52%;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+.apres p{
+  padding: 10px 0 90px 0;
+  font-size: 120%;
+  text-align: justify;
+}
+.coment{
+  box-shadow: -1 0 10px black;
+}
+/*MAIN*/
+.amb{
+  box-shadow: 0 0 40px #f74b68;
+  background-attachment: fixed;
+}
+.principal{
+  width: 92%;
+  margin: auto;
+  padding: 90px 0 80px 0;
+  text-align: center;
+}
+.principal h2{
+  padding-bottom: 20px;
+}
+.aClinica button{
+  margin: 20px 0 80px  0;
+}
+.servicos button{
+  margin-top: 20px;
+}
+.principal button{
+  padding: 10px;
+  border: none; 
+  border-radius: 5px;
+  background: #f74b68ad;
+  text-shadow: 0 0 3px black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.459);
+  cursor: pointer;
+}
+.principal button p {
+  color: white;
+}
+.principal button:hover{
+  text-decoration: underline 1px white;
+}
+.servicos h2{
+  padding-top: 80px;
+}
+.aClinica img, .servicos img{
+  border-radius: 17px;
+}
+/*ABOUT THE CLINIC*/
+.aClinica1{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 10% 0 70px 0;
+}
+.aClinica1 h1{
+  font-size: 300%;
+  padding-bottom: 40px;
+}
+.aClinica1 p{
+  text-align: justify;
+}
+.img{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.664);
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.linha{
+  margin: 0 0 0 4%;
+}
+.linee{
+  margin: 0 0 0 4%;
+}
+/*SERVICES*/
+.servicoss{
+  width: 90%;
+  margin: auto;
+  padding: 10% 0 70px 0;
+  text-align: center;
+}
+.servicoss h1{
+  font-size: 300%;
+  padding-bottom: 40px;
+}
+.servicoss h2{
+  color: rgba(136, 14, 34, 0.76);
+  padding: 10px 0 10px 0;
+}
+.servicoss p{
+  color: rgba(136, 14, 34, 0.575);
+  padding-bottom: 80px;
+}
+.serv6 p{
+  padding-bottom: 0;
+}
+.servicoss img{
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.527);
+}
+/*LOCATION*/
+#local{
+  padding-top:80px;
+  text-align: center;
+  width: 92%;
+  margin: auto;
+  margin-bottom: 90px;
+}
+#local iframe{
+  border: 1px solid #f74b68;
+  border-radius: 10px;
+}
+#local h1{
+  padding-bottom: 40px;
+  font-size: 190%;
+}
+#local p{
+  padding-bottom: 20px;
+}
+.tad{
+  width: 92%;
+  margin-left: 4%;
+}
+/*CONTACT*/
+#contato{
+     padding: 90px 0 67px 0;
+     width: 90%;
+     margin: auto;
+     text-align: center;
+}
+#contato h1{
+     padding-bottom: 40px;
+}
+#contato p{
+     font-size: 130%;
+}
+.conts{
+     padding-bottom: 30px;
+}
+.form1{
+     text-align: start;
+     border-left: 1.5px solid #f74b68cb; 
+     border-right: 1.5px solid #f74b68cb;
+     padding: 23px;
+     border-radius: 15px;;
+     margin-bottom: 50px;
+}
+.form input{
+     border: none;
+     border-radius: 4px;
+     height: 30px; width: 99%;
+     margin: 5px 0 20px 0;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.264);
+}
+.form button[type="reset"]{
+     padding: 10px;
+     width: 40%;
+     border: none;
+     border-radius: 5px;
+     color: white;
+     background: #f74b68ad;
+     margin-bottom: 0;
+}
+.form button[type="reset"] p{
+     color: white;
+}
+.p{
+     padding-bottom: 20px;
+}
+#contato h3{
+     padding-bottom: 15px;
+}
+.redes{
+     display: flex;
+     justify-content: space-around;
+     width: 78%;
+     margin: auto;
+}
+.redes img{
+     opacity: 0.6;
+     cursor: pointer;
+}
+/*FOOTER*/
+footer{
+     background: #ca1775;
+     text-align: center;
+     padding: 20px 0 20px 0;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.344);
+}
+footer p{
+     color: white;
+}
+hr{
+     width: 90%;
+     margin: 20px 0 20px 5%;
+}
+/*MEDIA QUERIES*/
+@media screen and (min-width: 510px){
+  .servicoss h1{
+       padding-bottom: 60px;
+  }
+  .principal h2{
+       font-size: 180%;
+  }
+  .apres p{
+       padding-bottom: 110px;
+  }
+  .principal{
+       padding-top: 110px;
+  }
+  .principal button{
+       padding: 15px;
+       border-radius: 7px;
+  }
+  .principal button p{
+       font-size: 150%;  
+    }
+  .aClinica button{
+       margin-bottom: 100px;
+  }
+  .servicos h2{
+       padding-top: 100px;
+  }
+  #local{
+       margin-bottom: 110px;
+  }
+  #contato{
+       padding-top: 110px;
+  }
+}
+@media screen and (min-width: 565px){
+  .servicoss{
+       width: 500px;
+       margin: auto;
+  }
+}
+@media screen and (min-width: 580px){
+  .aClinica1 h1{
+       font-size: 260%;
+  }
+  .logo img{
+      width: 80px;
+  }
+}
+@media screen and (min-width: 614px){
+  .aClinica{
+       width: 550px;
+       margin: auto;
+  }
+  .servicos{
+       width: 550px;
+       margin: auto;
+  }
+  .apres{
+       width: 70%;
+       margin-left: 15%;
+  }
+  #local iframe{
+       height: 400px;
+       width: 500px;
+  }
+  #local h1{
+       padding-bottom: 45px;
+       font-size: 210%;
+  }
+  #local p{
+       font-size: 140%;
+  }
+  #contato{
+       width: 500px;
+  }
+  .aClinica1 p{
+       text-align: center;
+  }
+}
+@media screen and (min-width: 660px){
+  .principal h2{
+       font-size: 210%;
+  }
+  .aClinica1{
+       width: 70%;
+       margin: auto;
+  }
+  .aClinica p{
+       text-align: center;
+       font-size: 120%;
+  }
+}
+@media screen and (min-width: 750px){
+  #topo{
+       position:fixed;
+  }
+  #banner img{
+       margin-top: 70px;
+  }
+  .logo{
+       margin-left: 3%;
+  }
+}
+@media screen and (min-width: 800px){
+  .apres{
+       width: 700px;
+       margin: auto;
+  }
+  .apres p{
+       text-align: center;
+  }
+}
+@media screen and (min-width: 830px){
+  .logo img{
+       width: 95px;
+  }
+  .img{
+       width: 570px;
+  }
+}
+@media screen and (min-width: 900px){
+  .logo img{
+       width: 110px;
+  }
+  .aClinica1 h1{
+       font-size: 290%;
+  }
+}
+@media screen and (min-width: 980px){
+  .aClinica1{
+       width: 960px;
+       margin: auto;
+  }    
+  .linee{
+       margin-bottom: 70px;
+  }
+  .container0{
+       width: 960px;
+       margin: auto;
+  }
+  .logo{
+       margin-left: 0;
+  }
+  .logo img{
+       width: 130px;
+  }
+  .line, .tad{
+       display: none;
+  }
+  .principal{
+       display: flex;
+       justify-content: space-between;
+       width: 85%;
+       margin: auto;
+       padding-bottom: 40px;
+  }
+  .aClinica, .servicos{
+       width: 350px;
+  }
+  .aClinica{
+       margin-left: 0;
+  }
+  .servicos{
+       margin: 0;
+  }
+  .servicos h2{
+       padding-top: 0;
+  }
+  #local{
+       width: 350px;
+       margin: 0;
+       padding: 0;
+      
+  }
+  #local p{
+       font-size: 120%;
+       padding-bottom: 30px;
+  }
+  #contato{
+       width: 350px;
+       margin: 0;
+       padding: 0;
+  }
+  #local iframe{
+       width: 350px;
+       height: 320px;
+  }
+  .fim{
+       width: 85%;
+       margin: auto;
+       display: flex;
+       justify-content: space-between;
+       padding-bottom: 110px;
+  }
+  #local, #contato{
+       padding-top: 110px;
+  }
+}
+@media screen and (min-width: 1100px){
+  .fim{
+       width: 960px;
+  }
+  .principal{
+       width: 960px;
+  }
+}
