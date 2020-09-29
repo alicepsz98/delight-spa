@@ -22,3 +22,30 @@
 .logo img{
   width: 70px;
 }
+/*BANNER*/
+#banner img{
+  margin-top:0;
+}
+#banner{
+  position: relative;
+}
+.foto{
+  position: absolute;
+  opacity: 0;
+  animation: animacao 12s infinite;
+}
+@keyframes animacao{
+  25%{
+       opacity: 1;
+       transform: scale(1);
+  }
+  50%{
+       opacity: 0;
+  }
+}
+.foto:nth-child(2){
+  animation-delay: 4s;
+}
+.foto:nth-child(3){
+  animation-delay: 8s;
+}
