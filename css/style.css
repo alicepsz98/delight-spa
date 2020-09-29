@@ -255,3 +255,276 @@ hr{
      width: 90%;
      margin: 20px 0 20px 5%;
 }
+/*MEDIA QUERIES*/
+@media screen and (min-width: 510px){
+  .servicoss h1{
+       padding-bottom: 60px;
+  }
+  .menuLinks ul li{
+       padding: 7%;
+  }
+  .principal h2{
+       font-size: 180%;
+  }
+  .apres p{
+       padding-bottom: 110px;
+  }
+  .principal{
+       padding-top: 110px;
+  }
+  .principal button{
+       padding: 15px;
+       border-radius: 7px;
+  }
+  .principal button p{
+       font-size: 150%;  
+    }
+  .aClinica button{
+       margin-bottom: 100px;
+  }
+  .servicos h2{
+       padding-top: 100px;
+  }
+  #local{
+       margin-bottom: 110px;
+  }
+  #contato{
+       padding-top: 110px;
+  }
+}
+@media screen and (min-width: 565px){
+  .servicoss{
+       width: 500px;
+       margin: auto;
+  }
+}
+@media screen and (min-width: 580px){
+  .menuLinks{
+       top: 120px;
+  }
+  .menuLinks ul li{
+       padding: 6.5%;
+  }
+  .logo img{
+       width: 80px;
+  }
+  .aClinica1 h1{
+       font-size: 260%;
+  }
+}
+@media screen and (min-width: 614px){
+  .aClinica{
+       width: 550px;
+       margin: auto;
+  }
+  .servicos{
+       width: 550px;
+       margin: auto;
+  }
+  .menuLinks ul li{
+       padding: 6%;
+  }
+  .apres{
+       width: 70%;
+       margin-left: 15%;
+  }
+  #local iframe{
+       height: 400px;
+       width: 500px;
+  }
+  #local h1{
+       padding-bottom: 45px;
+       font-size: 210%;
+  }
+  #local p{
+       font-size: 140%;
+  }
+  #contato{
+       width: 500px;
+  }
+  .aClinica1 p{
+       text-align: center;
+  }
+}
+@media screen and (min-width: 660px){
+  .menuLinks ul li{
+       padding: 5.5%;
+  }
+  .principal h2{
+       font-size: 210%;
+  }
+  .aClinica1{
+       width: 70%;
+       margin: auto;
+  }
+  .aClinica p{
+       text-align: center;
+       font-size: 120%;
+  }
+}
+@media screen and (min-width: 750px){
+  .menu{
+ display: none;
+  }
+  #topo{
+       position:fixed;
+  }
+  #banner img{
+       margin-top: 70px;
+  }
+  .logo{
+       margin-left: 3%;
+  }
+  .menuLinks{
+ transform: scale(1);
+ position: static;
+ border-radius: 0;
+ border: none;
+ width: 100%;
+ margin: 0 0 25px 0;
+ background: #31317400;
+}
+.menuLinks ul{
+ display: flex;
+ margin-left: 5%;
+}
+.menuLinks ul li{
+       padding: 0 0 0 0;
+       border-bottom: none;
+}
+.menuLinks ul li:not(#not){
+ padding: 0 18px 0 18px;
+ border-right: 0.5px solid rgba(255, 255, 255, 0.993);
+}
+.menuLinks ul #not{
+ padding-left: 18px;
+}
+.menuLinks ul li a{
+ font-size: 107%;
+ transition: 0.4;
+}
+}
+@media screen and (min-width: 800px){
+  .menuLinks ul{
+ margin-left: 10%;
+  }
+  .apres{
+       width: 700px;
+       margin: auto;
+  }
+  .apres p{
+       text-align: center;
+  }
+}
+@media screen and (min-width: 830px){
+  .menuLinks ul{
+ margin-left: 13%;
+  }
+  .logo img{
+       width: 95px;
+  }
+  .menuLinks{
+       margin: 0 0 50px 0;
+  }
+  .img{
+       width: 570px;
+  }
+}
+@media screen and (min-width: 900px){
+  .menuLinks ul{
+ margin-left: 16%;
+  }
+  .logo img{
+       width: 110px;
+  }
+  .menuLinks{
+       margin: 0 0 65px 0;
+  }
+  .aClinica1 h1{
+       font-size: 290%;
+  }
+}
+@media screen and (min-width: 980px){
+  .aClinica1{
+       width: 960px;
+       margin: auto;
+  }    
+  .linee{
+       margin-bottom: 70px;
+  }
+  .container0{
+       width: 960px;
+       margin: auto;
+  }
+  .logo{
+       margin-left: 0;
+  }
+  .menuLinks ul{
+ margin-left: 25%;
+  }
+  .logo img{
+       width: 130px;
+  }
+  .menuLinks{
+       margin: 0 0 85px 0;
+  }
+  .line, .tad{
+       display: none;
+  }
+  .principal{
+       display: flex;
+       justify-content: space-between;
+       width: 85%;
+       margin: auto;
+       padding-bottom: 40px;
+  }
+  .aClinica, .servicos{
+       width: 350px;
+  }
+  .aClinica{
+       margin-left: 0;
+  }
+  .servicos{
+       margin: 0;
+  }
+  .servicos h2{
+       padding-top: 0;
+  }
+  #local{
+       width: 350px;
+       margin: 0;
+       padding: 0;
+      
+  }
+  #local p{
+       font-size: 120%;
+       padding-bottom: 30px;
+  }
+  #contato{
+       width: 350px;
+       margin: 0;
+       padding: 0;
+  }
+  #local iframe{
+       width: 350px;
+       height: 320px;
+  }
+  .fim{
+       width: 85%;
+       margin: auto;
+       display: flex;
+       justify-content: space-between;
+       padding-bottom: 110px;
+  }
+  #local, #contato{
+       padding-top: 110px;
+  }
+}
+@media screen and (min-width: 1100px){
+  .fim{
+       width: 960px;
+  }
+  .principal{
+       width: 960px;
+  }
+}
