@@ -182,3 +182,62 @@ h1, h2, h3, p{
   width: 92%;
   margin-left: 4%;
 }
+/*CONTACT*/
+#contato{
+     padding: 90px 0 67px 0;
+     width: 90%;
+     margin: auto;
+     text-align: center;
+}
+#contato h1{
+     padding-bottom: 40px;
+}
+#contato p{
+     font-size: 130%;
+}
+.conts{
+     padding-bottom: 30px;
+}
+.form1{
+     text-align: start;
+     border-left: 1.5px solid #f74b68cb; 
+     border-right: 1.5px solid #f74b68cb;
+     padding: 23px;
+     border-radius: 15px;;
+     margin-bottom: 50px;
+}
+.form input{
+     border: none;
+     border-radius: 4px;
+     height: 30px; width: 99%;
+     margin: 5px 0 20px 0;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.264);
+}
+.form button[type="reset"]{
+     padding: 10px;
+     width: 40%;
+     border: none;
+     border-radius: 5px;
+     color: white;
+     background: #f74b68ad;
+     margin-bottom: 0;
+}
+.form button[type="reset"] p{
+     color: white;
+}
+.p{
+     padding-bottom: 20px;
+}
+#contato h3{
+     padding-bottom: 15px;
+}
+.redes{
+     display: flex;
+     justify-content: space-around;
+     width: 78%;
+     margin: auto;
+}
+.redes img{
+     opacity: 0.6;
+     cursor: pointer;
+}
