@@ -241,3 +241,17 @@ h1, h2, h3, p{
      opacity: 0.6;
      cursor: pointer;
 }
+/*FOOTER*/
+footer{
+     background: #ca1775;
+     text-align: center;
+     padding: 20px 0 20px 0;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.344);
+}
+footer p{
+     color: white;
+}
+hr{
+     width: 90%;
+     margin: 20px 0 20px 5%;
+}
