@@ -75,3 +75,89 @@ input:checked ~ .menuLinks{
 .logo1{
      overflow: hidden;
 }
+/*MEDIA QUERIES*/
+@media screen and (min-width: 510px){
+     .menuLinks ul li{
+          padding: 7%;
+     }
+}
+@media screen and (min-width: 580px){  
+     .menuLinks{
+          top: 120px;    
+     }
+     .menuLinks ul li{
+          padding: 6.5%;
+     }
+}
+@media screen and (min-width: 614px){
+     .menuLinks ul li{
+          padding: 6%;
+     }
+}
+@media screen and (min-width: 660px){
+     .menuLinks ul li{
+          padding: 5.5%;
+     }
+}
+@media screen and (min-width: 750px){
+     .menu{
+          display: none;
+     }
+     .menuLinks{
+          transform: scale(1);
+          position: static;
+          border-radius: 0;
+          border: none;
+          width: 100%;
+          margin: 0 0 25px 0;
+          background: #31317400;
+     }
+     .menuLinks ul{
+          display: flex;
+          margin-left: 5%;
+     }
+     .menuLinks ul li{
+          padding: 0 0 0 0;
+          border-bottom: none;
+     }
+     .menuLinks ul li:not(#not){
+          padding: 0 18px 0 18px;
+          border-right: 0.5px solid rgba(255, 255, 255, 0.993);
+     }
+     .menuLinks ul #not{
+          padding-left: 18px;
+     }
+     .menuLinks ul li a{
+          font-size: 107%;
+          transition: 0.4;
+     }
+}
+@media screen and (min-width: 800px){
+    .menuLinks ul{
+          margin-left: 10%;
+    }
+}
+@media screen and (min-width: 830px){
+     .menuLinks ul{
+          margin-left: 13%;
+     }
+     .menuLinks{
+          margin: 0 0 50px 0;
+     }
+}
+@media screen and (min-width: 900px){
+     .menuLinks ul{
+          margin-left: 16%;
+     }
+     .menuLinks{
+          margin: 0 0 65px 0;
+     }
+}
+@media screen and (min-width: 980px){
+     .menuLinks ul{
+          margin-left: 25%;
+     }
+     .menuLinks{
+          margin: 0 0 85px 0;
+     }
+}
