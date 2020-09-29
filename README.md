@@ -23,7 +23,7 @@
 # Indice
 
 - :rocket: [Sobre o Projeto](#rocket-sobre-o-projeto)
-- 👩‍💻 [Tecnogias utilizadas](#%EF%B8%8F-tecnogias-utilizadas)
+- 👩‍💻 [Tecnologias utilizadas](#%EF%B8%8F-tecnogias-utilizadas)
 - 📦️ [Como utilizar o projeto](#%EF%B8%8F-como-utilizar-o-projeto)
 - 🤔️ [Como contribuir](#%EF%B8%8F-como-contribuir)
 
@@ -35,7 +35,7 @@ A proposta do **[Delight Spa](https://alicepsz98.github.io/delight-spa/index.htm
 
 ---
 
-## 👩‍💻 Tecnogias utilizadas
+## 👩‍💻 Tecnologias utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
@@ -82,7 +82,7 @@ Para copiar o projeto, utilize os comandos:
 ---
 
 <h4 align="center">
-  Feito com ❤️ por Alice Souza 👋️ <a href="mailto:alicepsouzaba1998@gmail.com">Entre em contato!</a>
+  Feito com ❤️ por Alice Souza 👋️
 </h4>
 
 <p align="center">
