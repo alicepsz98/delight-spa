@@ -133,3 +133,29 @@ h1, h2, h3, p{
 .linee{
   margin: 0 0 0 4%;
 }
+/*SERVICES*/
+.servicoss{
+  width: 90%;
+  margin: auto;
+  padding: 10% 0 70px 0;
+  text-align: center;
+}
+.servicoss h1{
+  font-size: 300%;
+  padding-bottom: 40px;
+}
+.servicoss h2{
+  color: rgba(136, 14, 34, 0.76);
+  padding: 10px 0 10px 0;
+}
+.servicoss p{
+  color: rgba(136, 14, 34, 0.575);
+  padding-bottom: 80px;
+}
+.serv6 p{
+  padding-bottom: 0;
+}
+.servicoss img{
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.527);
+}
