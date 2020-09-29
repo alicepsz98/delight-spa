@@ -67,3 +67,44 @@ h1, h2, h3, p{
 .coment{
   box-shadow: -1 0 10px black;
 }
+/*MAIN*/
+.amb{
+  box-shadow: 0 0 40px #f74b68;
+  background-attachment: fixed;
+}
+.principal{
+  width: 92%;
+  margin: auto;
+  padding: 90px 0 80px 0;
+  text-align: center;
+}
+.principal h2{
+  padding-bottom: 20px;
+}
+.aClinica button{
+  margin: 20px 0 80px  0;
+}
+.servicos button{
+  margin-top: 20px;
+}
+.principal button{
+  padding: 10px;
+  border: none; 
+  border-radius: 5px;
+  background: #f74b68ad;
+  text-shadow: 0 0 3px black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.459);
+  cursor: pointer;
+}
+.principal button p {
+  color: white;
+}
+.principal button:hover{
+  text-decoration: underline 1px white;
+}
+.servicos h2{
+  padding-top: 80px;
+}
+.aClinica img, .servicos img{
+  border-radius: 17px;
+}
