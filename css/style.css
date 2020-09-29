@@ -159,3 +159,26 @@ h1, h2, h3, p{
   border-radius: 50%;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.527);
 }
+/*LOCATION*/
+#local{
+  padding-top:80px;
+  text-align: center;
+  width: 92%;
+  margin: auto;
+  margin-bottom: 90px;
+}
+#local iframe{
+  border: 1px solid #f74b68;
+  border-radius: 10px;
+}
+#local h1{
+  padding-bottom: 40px;
+  font-size: 190%;
+}
+#local p{
+  padding-bottom: 20px;
+}
+.tad{
+  width: 92%;
+  margin-left: 4%;
+}
