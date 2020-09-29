@@ -11,3 +11,14 @@
  align-items: center;
  justify-content: space-between;
 }
+/*LOGO*/
+.logo{
+  background: #f8d8dd;
+  z-index: 10000;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.575);
+  margin-left: 4%;
+}
+.logo img{
+  width: 70px;
+}
