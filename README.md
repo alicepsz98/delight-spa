@@ -82,11 +82,5 @@ Para copiar o projeto, utilize os comandos:
 ---
 
 <h4 align="center">
-  Feito com ❤️ por Alice Souza 👋️
+ por Alice Souza 💚
 </h4>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/alice-souza-a5b493174/">
-    <img alt="Alice Souza" src="https://img.shields.io/badge/LinkedIn-alice-souza?style=flat&logoColor=white&logo=linkedin">
-  </a>
-</p>
