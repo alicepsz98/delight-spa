@@ -22,29 +22,27 @@
 
 # Indice
 
-- :rocket: [Sobre o Projeto](#rocket-sobre-o-projeto)
-- 👩‍💻 [Tecnologias utilizadas](#%EF%B8%8F-tecnogias-utilizadas)
-- 📦️ [Como utilizar o projeto](#%EF%B8%8F-como-utilizar-o-projeto)
-- 🤔️ [Como contribuir](#%EF%B8%8F-como-contribuir)
+- :rocket: [About the Project](#rocket-sobre-o-projeto)
+- 👩‍💻 [Technologies](#%EF%B8%8F-tecnogias-utilizadas)
+- 📦️ [How to use](#%EF%B8%8F-como-utilizar-o-projeto)
+- 🤔️ [Contribution](#%EF%B8%8F-como-contribuir)
 
 ---
 
-## :rocket: Sobre o Projeto
+## :rocket: About the Project
 
-A proposta do **[Delight Spa](https://alicepsz98.github.io/delight-spa/index.html)** é mostrar as possibilidades do HTML e CSS, como um projeto básico usando os fundamentos de desenvolvimento web.
+The proposal of the **[Delight Spa](https://alicepsz98.github.io/delight-spa/index.html)** is to show the possibilities of HTML and CSS, as a basic project using the fundamentals of web development.
 
 ---
 
-## 👩‍💻 Tecnologias utilizadas
+## 👩‍💻 Technologies
 
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
-
-### Ferramentas
+### Tools
 
 - Photoshop
 - Visual Studio Code
 
-### Linguagens
+### Languages
 
 - HTML
 - CSS
@@ -55,32 +53,32 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ---
 
-## 📦️ Como utilizar o projeto
+## 📦️ How to use
 
-Para copiar o projeto, utilize os comandos:
+To copy the project, use the commands:
 
 ```bash
-  # Clonar o repositório
+  # Clone the repository
   ❯ git clone https://github.com/alicepsz98/delight-spa.git
 
-  # Entrar no diretório
+  # Enter directory
   ❯ cd delight-spa
 ```
 
 ---
 
-## 🤔️ Como contribuir
+## 🤔️ Contribution
 
-1. Faça o `fork` deste repositório
-2. Crie uma branch com sua feature:
+1. `fork` this repository
+2. Create a branch with your feature:
    - `$ git checkout -b minha_feature`
-3. Confirme sua branch:
+3. Confirm your branch:
    - `$ git commit -m "feature: Meu novo recurso"`
-4. Envie sua branch:
+4. Send your branch:
    - `$ git push origin minha_feature`
 
 ---
 
 <h4 align="center">
- por Alice Souza 💚
+ by Alice Souza 💚
 </h4>
