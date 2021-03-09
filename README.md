@@ -1,5 +1,5 @@
 <h1 align="center">
-  🌴 Delight Spa 👩‍💻  Front-end Web 🌺
+  🌺 Delight Spa 👩‍💻 
 </h1>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/alicepsz98/delight-spa">
