@@ -20,8 +20,6 @@
 
 ---
 
-# Indice
-
 - :rocket: [About the Project](#rocket-sobre-o-projeto)
 - 👩‍💻 [Technologies](#%EF%B8%8F-tecnogias-utilizadas)
 - 📦️ [How to use](#%EF%B8%8F-como-utilizar-o-projeto)
@@ -71,11 +69,11 @@ To copy the project, use the commands:
 
 1. `fork` this repository
 2. Create a branch with your feature:
-   - `$ git checkout -b minha_feature`
+   - `$ git checkout -b my_feature`
 3. Confirm your branch:
-   - `$ git commit -m "feature: Meu novo recurso"`
+   - `$ git commit -m "feature: my new feature"`
 4. Send your branch:
-   - `$ git push origin minha_feature`
+   - `$ git push origin my_feature`
 
 ---
 
