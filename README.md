@@ -31,7 +31,7 @@
 
 ## :rocket: About the Project
 
-The proposal of the **[Delight Spa](https://alicepsz98.github.io/delight-spa/index.html)** is to show the possibilities of HTML and CSS, as a basic project using the fundamentals of web development.
+The purpose of the **[Delight Spa](https://alicepsz98.github.io/delight-spa/index.html)** is to show the possibilities of HTML and CSS, as a basic project using the fundamentals of web development.
 
 ---
 
