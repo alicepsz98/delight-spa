@@ -20,27 +20,27 @@
 
 ---
 
-- :rocket: [About the Project](#rocket-sobre-o-projeto)
-- 👩‍💻 [Technologies](#%EF%B8%8F-tecnogias-utilizadas)
-- 📦️ [How to use](#%EF%B8%8F-como-utilizar-o-projeto)
-- 🤔️ [Contribution](#%EF%B8%8F-como-contribuir)
+- :rocket: [O projeto](#rocket-sobre-o-projeto)
+- 👩‍💻 [Tecnologias](#%EF%B8%8F-tecnogias-utilizadas)
+- 📦️ [Como usar](#%EF%B8%8F-como-utilizar-o-projeto)
+- 🤔️ [Contribuição](#%EF%B8%8F-como-contribuir)
 
 ---
 
-## :rocket: About the Project
+## :rocket: O projeto
 
-The purpose of the **[Delight Spa](https://alicepsz98.github.io/delight-spa/index.html)** is to show the possibilities of HTML and CSS, as a basic project using the fundamentals of web development.
+O propósito do **[Delight Spa](https://alicepsz98.github.io/delight-spa/index.html)** é mostrar as possibilidades de HTML e CSS, como um projeto básico usando os fundamentos de desenvolvimento web.
 
 ---
 
-## 👩‍💻 Technologies
+## 👩‍💻 Tecnologias
 
-### Tools
+### Ferramentas
 
 - Photoshop
 - Visual Studio Code
 
-### Languages
+### Linguagens
 
 - HTML
 - CSS
@@ -51,32 +51,32 @@ The purpose of the **[Delight Spa](https://alicepsz98.github.io/delight-spa/inde
 
 ---
 
-## 📦️ How to use
+## 📦️ Como usar
 
-To copy the project, use the commands:
+Para copiar o projeto, utilize os seguintes comandos:
 
 ```bash
-  # Clone the repository
+  # Clonar o repositório
   ❯ git clone https://github.com/alicepsz98/delight-spa.git
 
-  # Enter directory
+  # Entrar no diretório
   ❯ cd delight-spa
 ```
 
 ---
 
-## 🤔️ Contribution
+## 🤔️ Contribuição
 
-1. `fork` this repository
-2. Create a branch with your feature:
+1. `fork` neste repositório
+2. Crie uma branch com sua feature:
    - `$ git checkout -b my_feature`
-3. Confirm your branch:
+3. Faça o commit:
    - `$ git commit -m "feature: my new feature"`
-4. Send your branch:
+4. Envie as atualizações:
    - `$ git push origin my_feature`
 
 ---
 
 <h4 align="center">
- by Alice Souza 💚
+ por Alice Souza 💚
 </h4>
